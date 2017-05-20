@@ -8,3 +8,6 @@ In RStudio go to the directory with your data set. Click on `More > Set as worki
 ```
 dataset = read.csv('Data.csv')
 ```
+
+### Dealing with Missig Data
+To compensate for missing data, take a mean of the column.
