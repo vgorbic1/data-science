@@ -6,6 +6,7 @@
 - Import Pandas library, which imports and manages datasets. Create a shortcut.
 ```python
 import numpy as np
+np.set_printoptions(threshold = np.nan)
 import matplotlib.pyplot as plt
 import pandas as pd
 ```
@@ -27,4 +28,15 @@ In `[:, :-1]` the first variable `:` means ALL rows, and the second variable `:-
 Create a *Dependent variable vector*, which is a column of dependent variables an rows of observateions:
 ```
 Y = dataset.iloc[:, 3].values
+```
+### Dealing with Missig Data
+To compensate for missing data, take a mean of the column. Import the *Imputer* class from scikit-learn (a free software machine learning library for the Python) first. Then, create an object of that class:
+```python
+from sklearn.preprocessing import Imputer
+imputer = Imputer(missing_vlaues = 'NaN', strategy = "mean", axes = 0)
+```
+Impute the matrix of data:
+```python
+imputer = imputer.fit(X[:, 1:3]) // means indexes of 2 and 3 of the columns
+X[:, 1:3] = imputer.transform // replace the missing data by the means (average) of the columns
 ```
