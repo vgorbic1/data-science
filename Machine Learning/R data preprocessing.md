@@ -35,3 +35,23 @@ dataset$Purchased = factor(dataset$Purchased,
 ```
 
 ### Splitting dataset into a training set and test set
+Import *caTools* library to make a good split into training and test sets:
+```r
+install.packages('caTools')
+```
+Install the library only once. After that you can comment this line.
+
+Use the library:
+```r
+#install.packages('caTools')
+library(caTools)
+```
+Make the split. Set the seed (random number to randomise the dataset):
+```r
+set.seed(123)
+split = sample.split(dataset$Purchased, SplitRatio = 0.8)
+training_set = subset(dataset, split == TRUE)
+test_set = subset(dataset, split == FALSE)
+```
+- *SplitRatio* is the percentage of learning set. 
+- the *split* variable is an array of true or falls (depending if data was chosen or not).
