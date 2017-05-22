@@ -58,7 +58,14 @@ onehotencoder = OneHotEncoder(categorical_features = [0])
 X = onehotencoder.fit_transform(X).toarray()
 ```
 To process categorical data in dependent variable column, we need to use only *LabelEncoder*:
-```
+```python
 labelencoder_Y = LabelEncoder()
 Y = labelencoder_Y.fit_transform(Y)
 ```
+### Splitting dataset into a training set and test set
+Import the *Cross_vaildation* library:
+```python
+from sklearn.cross_validation import train_test_split
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2, random_state = 0)
+```
+Good *test_size* for test set is 0.2 (20% of data goes to test set)
