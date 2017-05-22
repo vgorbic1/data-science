@@ -42,3 +42,23 @@ Impute the matrix of data:
 imputer = imputer.fit(X[:, 1:3]) // means indexes of 2 and 3 of the columns
 X[:, 1:3] = imputer.transform // replace the missing data by the means (average) of the columns
 ```
+### Encoding Categorical Data
+Use *preprocessing* library and import the *LabelEncoder* class. Apply *fit_transform* mthod on the necessary columns:
+```python
+from sklearn.preprocessing import LabelEncoder
+labelencoder_X = LabelEncoder()
+X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
+```
+Create dummy variables for independent variable column where each column will represent one category of categorical data, otherwise the calculations will be incorrect:
+```python
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+labelencoder_X = LabelEncoder()
+X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
+onehotencoder = OneHotEncoder(categorical_features = [0])
+X = onehotencoder.fit_transform(X).toarray()
+```
+To process categorical data in dependent variable column, we need to use only *LabelEncoder*:
+```
+labelencoder_Y = LabelEncoder()
+Y = labelencoder_Y.fit_transform(Y)
+```
