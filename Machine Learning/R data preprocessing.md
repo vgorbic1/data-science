@@ -33,3 +33,5 @@ dataset$Purchased = factor(dataset$Purchased,
       levels = c('No', 'Yes'), 
       labels = c(0, 1))
 ```
+
+### Splitting dataset into a training set and test set
