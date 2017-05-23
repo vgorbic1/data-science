@@ -62,3 +62,41 @@ You have to scale all your feature variables (except dummies) to one range of nu
 training_set[, 2:3] = scale(training_set[, 2:3])
 test_set[, 2:3] = scale(test_set[, 2:3])
 ```
+
+### The Complete Template
+Use this code before your Machine Learning Model:
+```r
+# Data Processing
+
+# Importing dataset
+dataset = read.csv('Data.csv')
+# dataset = dataset[, 2:3]
+
+# Taking care of missing data (if you need it, uncomment below)
+# dataset$Age = ifelse(is.na(dataset$Age),
+#                     ave(dataset$Age, FUN = function(x) mean(x, na.rm = TRUE)),
+#                     dataset$Age)
+# dataset$Salary = ifelse(is.na(dataset$Salary),
+#                     ave(dataset$Salary, FUN = function(x) mean(x, na.rm = TRUE)),
+#                     dataset$Salary)
+
+# Encoding categorical data (if you need it, uncomment below)
+# dataset$Country = factor(dataset$Country, 
+#                         levels = c('France', 'Spain', 'Germany'), 
+#                         labels = c(1, 2, 3))
+# dataset$Purchased = factor(dataset$Purchased, 
+#                           levels = c('No', 'Yes'), 
+#                           labels = c(0, 1))
+
+# Splitting dataset into training and testing sets
+#install.packages('caTools')
+library(caTools)
+set.seed(123)
+split = sample.split(dataset$Purchased, SplitRatio = 0.8)
+training_set = subset(dataset, split == TRUE)
+test_set = subset(dataset, split == FALSE)
+
+# Feature Scaling (uncomment below if you need it)
+# training_set[, 2:3] = scale(training_set[, 2:3])
+# test_set[, 2:3] = scale(test_set[, 2:3])
+```
