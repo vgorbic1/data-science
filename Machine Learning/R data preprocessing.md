@@ -55,3 +55,10 @@ test_set = subset(dataset, split == FALSE)
 ```
 - *SplitRatio* is the percentage of learning set. 
 - the *split* variable is an array of true or falls (depending if data was chosen or not).
+
+### Feature Scaling
+You have to scale all your feature variables (except dummies) to one range of numbers. Make sure all columns are numeric, do not include those that are not (do not include factors).
+```r
+training_set[, 2:3] = scale(training_set[, 2:3])
+test_set[, 2:3] = scale(test_set[, 2:3])
+```
