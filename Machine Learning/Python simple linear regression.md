@@ -15,7 +15,7 @@ The least squares method to calculate the best fitting linear regression:
 #### SUM (y - y<sup>^</sup>)<sup>2</sup> -> min
 Where:
 - *y* is the real position on the chart
-- *y<sup>^</sup> is prognosed position on the chart
+- *y<sup>^</sup>* is prognosed position on the chart
 Take the difference between real and prognosed positions and square the result. Sum the 
 results for all pieces of data availale and find the minimum of that. 
                                         
