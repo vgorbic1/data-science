@@ -43,5 +43,31 @@ from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
 ```
 2. The library automaically will take care of feature scaling.
-3. Train your model on the training set (the model will learn a corelation betwin X_train matrix and y_train vector) to predict the dependent variable.
-4. Test the performance of the machine learning model on the test set (X_test and y_test).
+3. Fit Simple Linear Regression to the Training set. For that you need to import a Linear Regression class from sklearn library. Create an object of that class and fit data. This object is a *simple linear regression machine*. Train your model on the training set (the model will learn a corelation betwin X_train matrix and y_train vector) to predict the dependent variable.
+```python
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
+```
+4. Predict the Test set results. Create a vector of predictions (y_pred):
+```python
+y_pred = regressor.predict(X_test)
+```
+5. Visualize the Training set results:
+```python
+plt.scatter(X_train, y_train, color = 'red')
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+plt.title('Salary vd Experience (Training set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
+```
+6. Visualize the Test set results:
+```python
+plt.scatter(X_test, y_test, color = 'red')
+plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+plt.title('Salary vd Experience (Training set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
+```
