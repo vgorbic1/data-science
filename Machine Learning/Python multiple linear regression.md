@@ -69,7 +69,6 @@ regressor_OLS.summary()
 X_opt = X[:, [0,3]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 regressor_OLS.summary()
-## No we can plot the regression
 ```
 
 A function to execute Backward Elimination:
@@ -151,5 +150,5 @@ regressor_OLS.summary()
 X_opt = X[:, [0,3]]
 regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 regressor_OLS.summary()
-## No we can plot the regression
+## Now plot the regression
 ```
