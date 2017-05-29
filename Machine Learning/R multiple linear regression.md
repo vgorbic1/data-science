@@ -42,3 +42,24 @@ regressor = lm(formula = Profit ~ .,
 y_pred = predict(regressor, newdata = test_set)
 ```
 
+### Building the optimal model using Backward Elimination
+```r
+# Fitting Multiple Regression to the Training set
+regressor = lm(formula = Profit ~ R.D.Spend + Administration + Marketing.Spend + State,
+               data = dataset)
+## To check the regressor info put to the console the following:
+summary(regressor)
+## If the P-value in one of the column is higher than significant level (0.05), take this column out and do it over
+regressor = lm(formula = Profit ~ R.D.Spend + Administration + Marketing.Spend,
+               data = dataset)
+summary(regressor)
+## If the P-value in one of the column is higher than significant level (0.05), take this column out and do it over
+regressor = lm(formula = Profit ~ R.D.Spend + Marketing.Spend,
+               data = dataset)
+summary(regressor)
+## If the P-value in one of the column is higher than significant level (0.05), take this column out and do it over
+regressor = lm(formula = Profit ~ R.D.Spend,
+               data = dataset)
+summary(regressor)
+## Done! The model is ready.
+```
