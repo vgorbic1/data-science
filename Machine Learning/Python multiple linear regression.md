@@ -1,5 +1,5 @@
 ## Multiple Linear Regression with Python
-Use this [Demo data](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/50_Startups.csv)
+Use this [Demo data](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/50_Startups.csv)
 1. Set the working directory
 2. Preprocess data. Use a template or create a new one.
 3. Check for Categorical variables and encode it into separate columns (dummy variables)
