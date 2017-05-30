@@ -4,7 +4,7 @@
 All libraries (packages) needed are selected by default.
 
 ### Importing Project Data Set
-This is a sample [Data Set](https://github.com/vgorbic1/data-science/edit/master/Machine%20Learning/Data.csv)
+This is a sample [Data Set](https://github.com/vgorbic1/data-science/edit/master/Machine%20Learning/Sample%20Data/Data.csv)
 
 In RStudio go to the directory with your data set. Click on `More > Set as working directory` in the 'Files' tab. Import data set:
 ```
