@@ -21,7 +21,7 @@ Take the difference between real and prognosed positions and square the result. 
 results for all pieces of data availale and find the minimum of that. 
                                         
 ### Creating the model with R
-[Demo data](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Salary_Data.csv) file.
+[Demo dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Salary_Data.csv) file.
 1. Set a working directory.
 2. Data preporcessing step. Use a template or create a new one:
 ```r
