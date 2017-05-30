@@ -21,7 +21,7 @@ Take the difference between real and prognosed positions and square the result. 
 results for all pieces of data availale and find the minimum of that. 
                                         
 ### Creating the model with Python
-[Demo data](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Salary_Data.csv) file.
+[Demo dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%Data/Salary_Data.csv) file.
 1. Preprocessing step. Use a preprocessed template below or create a new one. Set the working directory where your data resides.
 ```python
 # SIMPLE LINEAR REGRESSION
