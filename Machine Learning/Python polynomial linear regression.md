@@ -1,5 +1,5 @@
 ## Polynomial Linial Regression with Python
-Sample [Dataset]()
+Sample [Dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Position_Salaries.csv)
 1. Set the working directory where the dataset resides.
 2. Import the dataset.
 3. No need to split data to training and test data for this particular dataset (database is too simple).
