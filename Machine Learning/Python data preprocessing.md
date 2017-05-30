@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 ```
 ### Importing Project Data Set
-This is a sample [Data Set](https://github.com/vgorbic1/data-science/edit/master/Machine%20Learning/Data.csv)
+This is a sample [Data Set](https://github.com/vgorbic1/data-science/edit/master/Machine%20Learning/Sample%20Data/Data.csv)
 
 - Specify a working directory. The working directory should contain a CSV file with the data set.
 - Using Anaconda Spider as IDE on Windows just run the .py file (F5) in the directory wher the CSV file is located.
