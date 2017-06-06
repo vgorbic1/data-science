@@ -1,5 +1,5 @@
 ## Logistic Regression with Python
-Demo [dataset]()
+Demo [dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Social_Network_Ads.csv)
 
 1. Set working directory
 2. Import Libraries
