@@ -1,4 +1,4 @@
-## Kernel Support Vector Machine (SVM) with Python
+## Kernel Support Vector Machine (K-SVM) with Python
 Demo [dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Social_Network_Ads.csv)
 
 1. Set working directory
