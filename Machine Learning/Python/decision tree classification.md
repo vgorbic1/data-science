@@ -5,7 +5,7 @@ Linke to [Sample dataset](https://github.com/vgorbic1/data-science/blob/master/M
 3. Apply feature scaling
 4. Fit a new regressor to the sample dataset
 5. Predict a new result
-6. Visualize the Decision Tree Regression results.
+6. Visualize the Decision Tree Classification results.
 ```python
 # Classification template
 
