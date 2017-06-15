@@ -1,5 +1,5 @@
 ## Decision Tree (Classification) with Python
-Linke to [Sample dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Position_Salaries.csv)
+Linke to [Sample dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Social_Network_Ads.csv)
 1. Get a regression template or create a new one
 2. Apply data splitting
 3. Apply feature scaling
