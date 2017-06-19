@@ -1,7 +1,7 @@
 ## K-Means
 K-means allows for clustering your data.
 
-![k-means1]()
+![k-means1](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/km1.jpg)
 
 1. Choose the number K of clusters
 2 Select at random K points,the centroids
