@@ -1,5 +1,5 @@
 ## K-Means Clustering
-Use this dataset.
+Use [this](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/mall.csv) dataset.
 
 1. Importing the libraries
 2. Importing the dataset
