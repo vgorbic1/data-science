@@ -16,6 +16,6 @@ Dendogram - is a memory of HC, which keeps all steps of the algorithm:
 5. Set the freshold of dissimilarity among the clusters. To find the freshold look at the largest distance and
 devide it in a half.
 
-![hc](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/dg1.jpg)
+![hc](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/dg2.jpg)
 
 The number of clusters will depend on how high the freshold is set.
