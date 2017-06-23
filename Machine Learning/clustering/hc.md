@@ -11,11 +11,11 @@ There are two approaches in HC:
 
 Dendogram - is a memory of HC, which keeps all steps of the algorithm:
 
-![dendogram]()
+![dendogram](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/dg.jpg)
 
 5. Set the freshold of dissimilarity among the clusters. To find the freshold look at the largest distance and
 devide it in a half.
 
-![hc]()
+![hc](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/dg1.jpg)
 
 The number of clusters will depend on how high the freshold is set.
