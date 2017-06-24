@@ -1,4 +1,4 @@
-## Eclat Intuition (E-klat)
+## Eclat Intuition (pronounced E-kla)
 Eclat model only have support. Find percentage of people who pick one product (calculate support):
 
 ![ap](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/ap.jpg)
