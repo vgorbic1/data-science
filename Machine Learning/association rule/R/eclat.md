@@ -1,4 +1,5 @@
 ## Eclat
+Use [this demo dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Market_Basket_Optimisation.csv)
 
 1. Data Preprocessing
 2. Training Eclat on the dataset
