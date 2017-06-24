@@ -12,7 +12,7 @@ Use [this](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learni
 # Hierarchical Clustering
 
 # Importing the dataset
-dataset = read.csv('Mall_Customers.csv')
+dataset = read.csv('mall.csv')
 dataset = dataset[4:5]
 
 # Splitting the dataset into the Training set and Test set
