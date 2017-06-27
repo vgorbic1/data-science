@@ -1,4 +1,11 @@
 ## Upper Confidence Bound with R
+Use this [sample dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Ads_CTR_Optimisation.csv)
+
+1. Importing the libraries
+2. Importing the dataset
+3. Implementing UCB
+4. Visualising the results
+
 ```R
 # Upper Confidence Bound
 
