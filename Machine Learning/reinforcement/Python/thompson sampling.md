@@ -1,5 +1,7 @@
 ## Thompson Sampling with Python
 
+Use this [sample dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Ads_CTR_Optimisation.csv)
+
 1. Importing the libraries
 2. Importing the dataset
 3. Implementing Random Selection
