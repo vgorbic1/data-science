@@ -12,9 +12,9 @@ Geoffrey Hinton is the godfather of Deep Learning.
 
 The model of "shallow" learning:
 
-![sl]()
+![sl](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/sl.jpg)
 
 Deep Learning model:
 
-![sl2]()
+![sl2](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/sl2.jpg)
 
