@@ -18,3 +18,4 @@ Deep Learning model:
 
 ![sl2](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/sl2.jpg)
 
+Neuron is a basic building block of a Neural Network.
