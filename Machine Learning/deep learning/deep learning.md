@@ -19,3 +19,14 @@ Deep Learning model:
 ![sl2](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/sl2.jpg)
 
 Neuron is a basic building block of a Neural Network.
+
+![perceptron](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/perceptron.jpg)
+
+Gradient Descent (Batch Gradient Descent) is used to adjust weights in a bulck and find the best convex Cost Function fit:
+
+![gradient descent](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/gd.jpg)
+
+Stochastic Gradient Descent is used to adjust weights in each row and find best non-convex Cost Function fit:
+
+
+
