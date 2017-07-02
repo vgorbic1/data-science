@@ -28,5 +28,6 @@ Gradient Descent (Batch Gradient Descent) is used to adjust weights in a bulck a
 
 Stochastic Gradient Descent is used to adjust weights in each row and find best non-convex Cost Function fit:
 
+![stochastic gradient descent](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/sgd.jpg)
 
 
