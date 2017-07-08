@@ -60,5 +60,5 @@ Take a Pooled Feaure Map and flatten it to a column, creating a vector of imputs
 
 The whole process now looks like this:
 
-![cnn9](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn9.jpg)
+![cnn10](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn10.jpg)
 
