@@ -33,3 +33,32 @@ When a one row of the Input Image is finished and the cursor goes down one row, 
 
 Feature Map is sometimes called a Concolved Feature or Activation Map. It is a smaller representation of the Input Image
 for easier processing.
+
+![cnn6](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn6.jpg)
+
+### ReLU Layer
+Rectified Linear Units is an additional step to apply Rectifier function to the Convolution. 
+It is done to increase non-linearity in CNN.
+
+![cnn7](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn7.jpg)
+
+### Max Pooling (Downsampling)
+Apply Spacial Invarience (CNN should have a flexibility to recognize a feature if the feature a bit tilted or bit closer 
+or farther relativly to each other). The size is also reduced up to 75%.
+
+The system applys a filter to the Feature Map and gets the highest number within the filter. After that, it moves
+to the next part of the Map: 
+
+![cnn8](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn8.jpg)
+
+Additional Reading: [Evalution of Pooling Operations in Convolutional Architectures for Object Recognition](http://ais.uni-bonn.de/papers/icann2010_maxpool.pdf) by Dominik Scherer.
+
+### Flattening
+Take a Pooled Feaure Map and flatten it to a column, creating a vector of imputs:
+
+![cnn9](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn9.jpg)
+
+The whole process now looks like this:
+
+![cnn9](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn9.jpg)
+
