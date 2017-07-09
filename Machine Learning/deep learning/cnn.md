@@ -67,6 +67,10 @@ Adding CNN to ANN.
 
 ![cnn11](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn11.jpg)
 
+At the end the Softmax and Cross-Entropy applied to the result to make the sum of predicted values to 1:
+
+![cnn13](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn13.jpg)
+
 ### Summary
 The whole process:
 
