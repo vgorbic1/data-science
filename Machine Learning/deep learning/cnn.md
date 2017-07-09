@@ -62,3 +62,12 @@ The whole process now looks like this:
 
 ![cnn10](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn10.jpg)
 
+### Full Connection
+Adding CNN to ANN.
+
+![cnn11](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn11.jpg)
+
+### Summary
+The whole process:
+
+![cnn12](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/images/cnn12.jpg)
