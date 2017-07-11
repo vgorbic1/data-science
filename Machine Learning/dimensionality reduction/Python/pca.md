@@ -2,16 +2,16 @@
 
 Use this [dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Wine.csv).
 
-- Importing the libraries
-- Importing the dataset
-- Splitting the dataset into the Training set and Test set
-- Feature Scaling
-- Applying PCA
-- Fitting Logistic Regression to the Training set
-- Predicting the Test set results
-- Making the Confusion Matrix
-- Visualising the Training set results
-- Visualising the Test set results
+1. Importing the libraries
+2. Importing the dataset
+3. Splitting the dataset into the Training set and Test set
+4. Feature Scaling
+5. Applying PCA
+6. Fitting Logistic Regression to the Training set
+7. Predicting the Test set results
+8. Making the Confusion Matrix
+9. Visualising the Training set results
+10. Visualising the Test set results
 
 ```python
 # PCA
