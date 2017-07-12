@@ -1,6 +1,7 @@
 ## K-fold Cross Validation with Python
 
-Use [this dataset]().
+Use [this dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Social_Network_Ads.csv).
+
 1. Importing the libraries
 2. Importing the dataset
 3. Splitting the dataset into the Training set and Test set
