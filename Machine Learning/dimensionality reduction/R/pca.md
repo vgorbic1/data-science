@@ -1,4 +1,4 @@
-## PCA with Python
+## PCA with R
 
 Use this [dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Wine.csv).
 
