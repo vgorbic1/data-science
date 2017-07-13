@@ -1,5 +1,7 @@
 ## XGBoost with Python
 
+XGBoost increases the speed and accuracy of Deep Learning models.
+
 Use [this dataset](https://github.com/vgorbic1/data-science/blob/master/Machine%20Learning/Sample%20Data/Churn_Modelling.csv)
 
 1. Install xgboost following the instructions on this link: http://xgboost.readthedocs.io/en/latest/build.html#
